@@ -1,0 +1,31 @@
+7500 Homework6
+Mibin Zhu
+001424937
+
+Question3.1 : Give a detailed explanation on how ScriptTester.run works.
+Q3.1 Answer :
+STEP1 : By using the getKit() function, it initializes a WalletAppKit object;
+STEP2 : By using the createLockingScript() function, it creates a locking script to lock the transaction;
+STEP3 : Creates a new transaction named txA and adds the locking script on txA's output, uses SendRequest to send the txA to the blockchain;
+STEP4 : Creates another new transaction named txB by using the outputs of txA, uses createUnlockingScript() function to unlock the transaction;
+STEP5 : By using the testScript() function to check whether there has any error occurs with lockingScript or unlockingScript;
+STEP6 : By doing so, it can test the locking and unlocking scripts written in PayToPubKey class.
+
+Question3.2 : Run the PayToPubKey subclass and give the two transaction IDs.
+Q3.2 Answer : TxHash = 76d88d476a418d8a0ac7953606a09b449c48017fb239e08b27e8961de0dfb0ad
+	      TxHash = 806b7fc9d04717474324bdbf06dfa6d4eb93783ea2d0eac1a7903f86b4092025
+
+Question4 : PayToPubKeyHash, Submit the two transaction IDs.
+Q4 Answer : TxHash = a7e14941ef6bf6b69fee2971cf90dc5daa2d7528eb9cf205ffc314568f26496f
+	    TxHash = 8549c35e53ada75ba340c4927482847e5181d94420f25fd0cfa85e260ec20a72
+
+Question5 : MultiSigTransaction, Submit the two transaction IDs.
+Q5 Answer : TxHash = 355bab8e91a873d6b1b9a9a3d2300f9378941ecc49670eeb2f1eff97a3a02850
+	    TxHash = 3e0cebb33ea2c975a972c89f4bcc11fe8132b3c4a5066f0ae4e0611a496f168a
+
+Question6 : Group MultiSigTransaction, Submit the two transaction IDs.
+Q6 Answer : TxHash = e11bee9f5a79e2bca8cb879681674451b50d75e9c426afe4f4e60f0766a528a7
+	    TxHash = 59f4c50c1d73e2d38e967d172bfa4b5cc5e2ee6144123cc85d79199f945256b4
+
+Question7 : SendMoneyBackToFaucet, give the transaction ID used to send your balance back to the faucet.
+Q7 Answer : TxHash = 14afd3f13942e4c60fcf51462f17ff4e896a36c9042057b151f1a8191b49b24a

@@ -1,0 +1,22 @@
+7500 Homework5
+Mibin Zhu
+001424937
+
+Question4 : Submit the current receive address of your wallet as your solution.
+Q4 Answer : n4mRFyWfYDk6eV3T745fCW1KtuWkZyR4Bt
+
+Question5 : Use the testnet faucet to send testnet coins to the testnet wallet’s receive address.
+Q5.1 : Transaction ID?
+Q5.1 Answer : 88188e67a3b704cd5eab0603fdedbe8061613018b86292de48e840d6fdba1df9
+
+Q5.2 : The amount of testnet coins sent to my receive address?
+Q5.2 Answer : 0.01558649 BTC
+
+Q5.3 : How many outputs does the transaction have?
+Q5.3 Answer : 2 outputs, 10.16013481 BTC to 2MwbuASnsKZcoQaLXU2vkc8WqLL6B8Pgzif (spent); 0.01558649 BTC to n4mRFyWfYDk6eV3T745fCW1KtuWkZyR4Bt (unspent)
+
+Q5.4 : What is the purpose of the output that locks coins to the address that’s not yours?
+Q5.4 Answer : To avoid the double-spent of these coins.
+
+Question8 : Submit your custom bitcoin address as your solution.
+Q8 Answer : 1ZHUX8Yvm8nf5cFaAgzgFFFg7vjmNJY6h
